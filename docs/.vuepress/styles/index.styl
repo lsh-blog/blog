@@ -1,0 +1,71 @@
+body{
+  cursor url("/img/default.cur"),auto!important
+}
+  a{
+    cursor: url("/img/pointer.cur"),auto!important
+  }
+    ul,li{
+      list-style none
+    }
+// 代码库重置
+.content pre {
+  margin: 0 !important;
+}
+
+.theme-container.about-me .content:not(.custom) {
+  /* 特定页面的 CSS */
+  width 100%;
+  max-width: 100%;
+  padding 0;
+  margin 0;
+}
+
+.aplayer-info,
+.aplayer.aplayer-fixed .aplayer-info {
+  display: block !important;
+}
+
+@media (max-width: 580px) {
+  div[id="live2d-widget"] {
+    display: none;
+  }
+}
+div[id="live2d-widget"] canvas{
+  width: 150px!important;
+  border: none!important;
+}
+#section2 .fp-tableCell {
+  vertical-align: top;
+}
+
+#section3 .fp-slidesNav.fp-bottom {
+  top: calc(100% - 110px);
+
+}
+
+#section3 .fp-slidesNav.fp-bottom > ul {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+body #fp-nav ul li a span {
+  height: 12px;
+  width: 12px;
+  margin: -6px 0 0 -6px;
+  border: 4px solid #C4E0FF;
+  background: transparent
+}
+
+body #fp-nav ul li a.active span {
+  background-color: #2382EA;
+}
+
+body #fp-nav ul li {
+  margin: 14px 7px;
+}
+
+body #fp-nav ul li .fp-tooltip {
+  color blue
+}
