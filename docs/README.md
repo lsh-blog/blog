@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.jpg
-heroText: 猿计划
+heroText: 黑猫警长
 tagline: 一个后知后觉的愚钝者，没有过不去的，只有回不去的
 actionText: 随便瞧瞧 →
 actionLink: /FAQ/Wiki
